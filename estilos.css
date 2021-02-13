@@ -1,8 +1,4 @@
-.image {
-    display: block;
-    text-align: center;
-}
-
-#tu {
-    text-align: center;
+* {
+    background-color: steelblue;
+    width: auto;
 }
