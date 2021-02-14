@@ -24,8 +24,11 @@ header {
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Aclonica', sans-serif;
+    
 }
+
+
 
 .logo {
     height: 100%;
@@ -59,7 +62,8 @@ a {
 }
 
 .navegacao li:hover {
-    color: #ff6600;
+    color: #ff7b00;
+    transition: all 0.5s ease;
 }
 
 .colord {
@@ -94,15 +98,15 @@ a {
 
 #button-1 {
     font-weight: 150px;
-    color:rgb(255, 255, 255)  ;
+    color:#0266b3  ;
     border:30px;
     border-radius: 27.5px;
     display: block;
-    width: 100px;
-    height: 45px;
+    width: 110px;
+    height: 50px;
     text-decoration: none;
     cursor: pointer;
-    background-color: #003862;
+    background-color: #002f53;
     font-size: 18px;
     font-family: 'Aclonica', sans-serif;
     line-height: 0.5;
@@ -112,5 +116,6 @@ a {
 #button-1:hover {
     box-shadow: rgb(0 0 0 / 20%) 0 4px 8px 0;
     background-color: #0382e4;
-    transition: all 0.5s ease;
+    transition: all 0.85s ease;
+    color: #0a3f68 ;
 }
