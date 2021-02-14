@@ -7,15 +7,17 @@
 header {
     width: 100%;
     display: block;
-    height: 80px;
-    background-color: rgb(65, 65, 65);
+    height: 85px;
+    background-color: #691b0b;
 }
 
 #linha {
     display: block;
     margin: 0 auto;
-    width: 1000px;
+    width: auto;
     height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 a {
@@ -28,12 +30,15 @@ a {
     height: 100%;
     display: table;
     float: left;
-    align-items: center;
+    align-items: flex-start;
+    cursor: pointer;
+
 }
 
 .navegacao {
     float: right;
     height: 100%;
+
 }
 
 .navegacao a {
@@ -48,6 +53,20 @@ a {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: white;
+    color: rgb(255, 115, 0);
     font-size: 20px;
+}
+
+.navegacao li:hover {
+    color: #ffffff;
+}
+
+.caixa {
+    width: auto;
+    background-color: #691b0b;
+    height: 500px;
+}
+
+#img-bk-idx {
+    float: left;
 }
