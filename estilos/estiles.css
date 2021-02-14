@@ -61,12 +61,11 @@ a {
     color: #ffffff;
 }
 
-.caixa {
-    width: auto;
-    background-color: #691b0b;
-    height: 500px;
+#G-1 {
+    text-align: center;
+    margin-top: 50px;
 }
+    
+    
 
-#img-bk-idx {
-    float: left;
-}
+
