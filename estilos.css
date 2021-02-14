@@ -1,4 +1,36 @@
 * {
-    background-color: steelblue;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dicionariopopular.com%2Fimagens%2Flenny-face-og.jpg&f=1&nofb=1);
+    background-repeat: no-repeat;
+}
+
+.texto {
+    background-color: rgb(131, 2, 2);
+    font-family: 'MedievalSharp', cursive;
+    color: rgb(255, 200, 0);
+
+
+}
+/* posição da imagem */
+.imagem {
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
     width: auto;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    cursor: crosshair;
+}
+
+.para {
+    text-align: center;
+    margin: 0px;
 }

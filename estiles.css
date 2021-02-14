@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: block;
+    height: 80px;
+    background-color: rgb(65, 65, 65);
+}
+
+#linha {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'MedievalSharp', cursive;
+}
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+    align-items: center;
+}
+
+.navegacao {
+    float: right;
+    height: 100%;
+}
+
+.navegacao a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+.navegacao li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
