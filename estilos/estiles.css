@@ -8,7 +8,7 @@ header {
     width: 100%;
     display: block;
     height: 95px;
-    background-color: #01508d;
+    background-color: #025da3;
     padding: .1px 0;
 }
 
@@ -97,11 +97,13 @@ a {
 
 .frase h1 {
     color: rgb(255, 193, 7);
+    text-shadow: #044f88 5px 5px;
 }
 
 .frase p {
     color: rgb(255, 193, 7);
     line-height:60px;
+    text-shadow: #044f88 5px 5px;
 }
 
 #button-1 {
@@ -110,20 +112,23 @@ a {
     border:30px;
     border-radius: 27.5px;
     display: block;
-    width: 110px;
+    width: 130px;
     height: 50px;
     text-decoration: none;
     cursor: pointer;
-    background-color: #002f53;
+    background-color: #7289da;
     font-size: 18px;
     font-family: 'Aclonica', sans-serif;
     line-height: 0.5;
+    box-shadow: rgb(25, 25, 26) 0 4px 8px 0;
+    margin-top: 15px;
     
 }
 
 #button-1:hover {
     box-shadow: rgb(0 0 0 / 20%) 0 4px 8px 0;
-    background-color: #0382e4;
+    background-color: #849fff;
     transition: all 0.85s ease;
     color: #0a3f68 ;
+    color: #313a5a;
 }
